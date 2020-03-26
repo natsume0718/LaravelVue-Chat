@@ -20,7 +20,8 @@
         "mockery/mockery": "^1.0",
         "nunomaduro/collision": "^3.0",
         "nunomaduro/larastan": "^0.5.3",
-        "phpunit/phpunit": "^8.0"
+        "phpunit/phpunit": "^8.0",
+        "squizlabs/php_codesniffer": "^3.5"
     },
     "config": {
         "optimize-autoloader": true,
@@ -61,6 +62,9 @@
         ],
         "stan": [
             "./vendor/bin/phpstan analyse"
+        ],
+        "sniff": [
+            "./vendor/bin/phpcs ."
         ]
     }
 }
