@@ -26,3 +26,15 @@ Laravel 6.x LTS のデバッグやコード解析を導入した Sandbox
 -   `composer sniff` または `./vendor/bin/phpcs .`で codesniffer を用いたコーディング規約のチェックを行います。
 
 -   `git checkout features/admin` から 管理者画面を簡単に導入ができるので必要な場合はマージします。
+
+## Installed Package
+
+-   IDE Helper : Laravel で IDE 補完機能を有効にする
+
+-   larastan : Laravel で静的解析を行う
+
+-   php_codesniffer : コーディング規約のチェックを行う
+
+-   php unit : 単体テストを行う
+
+-   debugbar : 画面にデバッグ用の表示を行う
