@@ -27,6 +27,8 @@ Laravel 6.x LTS のデバッグやコード解析を導入した Sandbox
 
 -   `git checkout features/admin` から 管理者画面を簡単に導入ができるので必要な場合はマージします。
 
+-   `php artisan generate:model-factory --dir app/Models -- モデル名` factory を自動生成します。
+
 ## Installed Package
 
 -   IDE Helper : Laravel で IDE 補完機能を有効にする
@@ -38,3 +40,15 @@ Laravel 6.x LTS のデバッグやコード解析を導入した Sandbox
 -   php unit : 単体テストを行う
 
 -   debugbar : 画面にデバッグ用の表示を行う
+
+-   laravel-test-factory-helper : モデルから簡単にファクトリーを作成する
+
+## Frontend Develop
+
+-   `frontend`ブランチをマージします。
+
+-   `npm install`
+
+-   `Purgecss`で未使用 css を削除します
+
+-   `Polyfill`で対象の browser のサポートを行います
