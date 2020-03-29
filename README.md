@@ -52,3 +52,7 @@ Laravel 6.x LTS のデバッグやコード解析を導入した Sandbox
 -   `Purgecss`で未使用 css を削除します
 
 -   `Polyfill`で対象の browser のサポートを行います
+
+-   npm でコンパイル後 Vue の挙動確認が可能です。
+
+-   CSS フレームワークは TailwindCSS
